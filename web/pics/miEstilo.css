@@ -1,12 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+html {
+	background-color: orange; 
+  }
 
 #titulo{
 	text-align: center;
 	font-size: 70px;
+	text-decoration-color: #ee9ef3;
 	background-color: coral;
-	background: -webkit-linear-gradient(top, #ee9ef3, #5ad9ff);
-	background: -ms-linear-gradient(top, #ee9ef3, #5ad9ff);
+	background: -webkit-linear-gradient(left, #e2a520, #9fcfde);
+	background: -ms-linear-gradient(top, #ee9ef3, #0c5b74);
 	width: 50%;
 	align-content: center;
 	border-radius: 5px;
@@ -19,14 +23,13 @@
 	
 .imagen{
 	
-	align-items: center;
+	align-content: center;
 	width: 200px;
-	height: 130px;
+	height: 30%;
 	border: 2px solid #71bdff;
 	padding: 4px;
-	float: left;
-	margin: 80px 20px;
-	border-radius: 5px;
+	margin: 80px 200px;
+	border-radius: 30px;
 	transition: transform 0.5s ease-in-out 1s; 
 	
 }
@@ -35,7 +38,7 @@
 }
 
 .imagen:hover{
-	transform: scale(1.2);
+	transform: scale(2);
 }
 p.blue{
 	color:blue; 

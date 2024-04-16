@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./miEstilo.css"/>
+        <link rel="stylesheet" type="text/css" href="./pics/miEstilo.css"/>
         <title>Jare More</title>
-        <script type="text/javascript">
-            alert("Jare More") </script>
+        <style>
+            div{
+                text-align: center;
+                font-style: normal;
+                font-weight:bold;
+                color:black;
+                font-size: 30px;
+            }
+    
+        </style>
+    <script>
+        function myClickFunction() {
+            var elementName = document.getElementById("click-demo");
+                if (elementName.style.fontStyle != "italic"){elementName.style = "italic";
+                }
+                else {elementName.style.fontStyle = "normal";
+                }
+                alert("This is a Javascript message jare!");
+    
+        }
+        </script>
     </head>
     
 <body>
-    <style>background-color </style>
-    <p id="titulo"> Hello </p>
-    <img id="imagen1" src="./pics/JCCarnet.jpg"/>
-</body>
+    
+    <div id="click-demo" onclick="myClickFunction()">
+    wefwfwefwlemflwkvmlwkenwjemcwecinjmkwbuhwneijmklfw
+    </div>
 
+    
+    <p id="titulo"> Hello </p>
+    <img class="imagen" src="./pics/JCCarnet.jpg"/>
+
+
+    <p id="para1">javascript is powerful</p>
+    <p id="para2">I can manipulate HTML docs</p>
+    <script type="text/javascript">
+        document.getElementById("para2").style.color = "red";
+    </script>
+</body>
 
 </html>
