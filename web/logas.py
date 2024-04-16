@@ -13,6 +13,5 @@ def f1(x):
     
 #f1(1)
 
-x = (1000)
-print(type(x))
+x = int(input("Introduce nº entero para hallar su log en base 10: "))
 f1(x)
