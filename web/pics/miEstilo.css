@@ -23,12 +23,10 @@ html {background-color: bisque;}
 	padding: 4px;
 	float: left;
 	margin: 20px 0px 50px 200px;
-	align-items: center;
+	align-items: left;
 
 }
 .imagen{
-	text-align: center;
-	align-items: left;
 	width: 200px;
 	height: 30%;
 	border: 4px solid #183045;
