@@ -8,4 +8,4 @@ elif a < b:
 else:
     print ('A y B son iguales')
 
-print ('Estamos fuera del if')
+print ('Aaadios')
