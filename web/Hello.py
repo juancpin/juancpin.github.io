@@ -2,7 +2,7 @@
 import math
 import random
 
-lista = [4, 6 , 45, 78]
+lista = [4, 6 , 45, 7158]
 
 print ('El nº aleatorio es', random.choice(lista))
 
