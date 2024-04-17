@@ -6,12 +6,13 @@ import math
 #preguntar por qué math.log no acepta tuplas
 def f1(x):
     loga = math.log10(x)
-    print ('LOG de', x ,'es', loga, sep=' ')
+    print ('LOG de', x ,'es', loga)
     return x
     #x = list(zip(*x))
     #x = zip(*x)
     
 #f1(1)
 
-x = int(input("Introduce nº entero para hallar su log en base 10: "))
-f1(x)
+x = (1000, 10000, 10, 234, 50)
+for x in x:
+    f1(x)
