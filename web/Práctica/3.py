@@ -1,0 +1,5 @@
+tuplatest = (7, 8, 65, 89, 34)
+print ('La tupla original es', tuplatest)
+res = sum(list(tuplatest))
+print('')
+print('La suma de los elementos es', res)
