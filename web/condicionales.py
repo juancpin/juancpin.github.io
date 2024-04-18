@@ -1,4 +1,3 @@
-
 a = int(input ('Introduce num a: '))
 b = int(input ('Introduce num b: '))
 print ('a vale', a, 'y b vale', b)
@@ -9,4 +8,4 @@ elif a < b:
 else:
     print ('A y B son iguales')
 
-print ('Aaadios')
+print ('Aaaaadios')
