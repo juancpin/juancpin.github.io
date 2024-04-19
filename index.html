@@ -1,58 +1,30 @@
-
-<!doctype html>
-<html lang="es-ES">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport"
-	content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href=bootstrap-5.3.3/dist/css/bootstrap.css/>
-	<script src=bootstrap-5.3.3/dist/js/bootstrap.min.js></script>
-	<title>Juan Carlos Pin</title>
-	<style> 
-	body{background-color: #f0c078;}
-	</style>
-</head>
-
-<body class="font-roboto">
-<div class="container text-center">
-	<h1 id="titulo" class="display-1 font">Juan Carlos Pin</h1>
-	<h6 class="display-6">Professional Scrum Master | Python | Data </h6> <!--esto va a ser un carrusel de texto, cada sección, abrirá en el centro una descripción-->
-	<hr>
-</div>
-
-<div id="Imagen" class="container3-fluid">
-	
-<figure class="container-md text-center">
-<img id="fotojc" src="web/pics/imagenes/JCCarnet.jpg" alt="JC" width="300" >
-
-</figure>
-</div>
-
-<div class="container-fluid">
-	
-	<p class="lead text-center">
-  This is a lead paragraph. It stands out from regular paragraphs. 
-</p>
-
-<figure class="text-center">
-  <blockquote class="blockquote">
-    <p>A well-known quote, contained in a block quote element.</p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
-  </figcaption>
-</figure>
-</div>
-
-
-
-<div id="párrafo" class="container3-fluid">
-	
-<figure class="container-md text-center">
-
-<p class="bg-white text-dark font-courier"> <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit. Velit dignissim sodales ut eu sem integer vitae justo. Metus vulputate eu scelerisque felis. Diam quam nulla porttitor massa id neque aliquam vestibulum. Risus commodo viverra maecenas accumsan lacus vel facilisis. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Tellus orci ac auctor augue mauris augue. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Aliquam id diam maecenas ultricies mi eget. In nibh mauris cursus mattis molestie a. Quisque id diam vel quam elementum pulvinar.
-		</p>
-</figure>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./pics/miEstilo.css"/>
+        <title>Juan Carlos Pin</title>
+        
+    <script>
+        function myClickFunction() {
+            var elementName = document.getElementById("click-demo");
+                if (elementName.style.fontStyle != "italic"){elementName.style = "italic";
+                }
+                else {elementName.style.fontStyle = "normal";
+                }
+                alert("This is a Javascript message jare!");
+    
+        }
+        </script>
+    </head>
+    
+<body>
+    
+    <img id="tag" src="./pics/giphy.gif" alt="Scroll to check another personality"/>
+    <img class="imagen" src="./pics/imagenes/JCCarnet.jpg"/>
+    <div id="click-demo" alt="Click me" onclick="myClickFunction()">
+    Professional Scrum Master | Python | Data
+        </div>
+<hr>
 </body>
+
+</html>
