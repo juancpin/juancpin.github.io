@@ -1,8 +1,13 @@
 import math
 import random
-from Hello import suma
 
-rands = random.sample(range(102323230), 4)
+rands = random.randint(1,10)
+i=0
+print(rands)
+list1 = list()
+while i < rands:
+    rand2=random.randint(1,1000)
+    list1.append(rand2)
+    i += 1
 
-for i in rands:
-    print(i)
+print(list1)
