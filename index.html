@@ -3,18 +3,16 @@
     <head>
         <link rel="stylesheet" type="text/css" href="./web/pics/miEstilo.css"/>
         <title>Juan Carlos Pin</title>
-        
     <script>
-        function myClickFunction() {
-            var elementName = document.getElementById("click-demo");
-                if (elementName.style.fontStyle != "italic"){elementName.style = "italic";
-                }
-                else {elementName.style.fontStyle = "normal";
-                }
-                alert("This is a Javascript message jare!");
-    
+    function myClickFunction() {
+        var elementName = document.getElementById("click-demo");
+        if (elementName.style.fontStyle !== "italic") {
+            elementName.style.fontStyle = "italic";
+        } else {
+            elementName.style.fontStyle = "normal";
         }
-        </script>
+    }
+</script>
     </head>
     
 <body>
