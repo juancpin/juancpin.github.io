@@ -4,35 +4,28 @@
         <meta charset="utf-8">
 	    <meta name="viewport"
 	    content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./web/bootstrap-5.3.3/dist/css/bootstrap.css"/>
-	    <script src="./web/bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="./web/pics/miEstilo.css"/>
+	    <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>Juan Carlos Pin</title>
-    <script>
-    function myClickFunction() {
-        var elementName = document.getElementById("click-demo");
-        if (elementName.style.fontStyle !== "italic") {
+          <script>
+            function myClickFunction() {
+            var elementName = document.getElementById("click-demo");
+            if (elementName.style.fontStyle !== "italic") {
             elementName.style.fontStyle = "italic";
-        } else {
+            } else {
             elementName.style.fontStyle = "normal";
-        }
-    }
-</script>
+            }
+            }
+        </script>
     </head>
     
-<body>    
-    <img class="rounded float-start" src="./web/pics/giphy.gif" alt="Scroll to check another personality"/>
-    <a href="./web/task-list/index.html">TEXT</a>
-    <img class="rounded float-start" src="./web/pics/imagenes/JCCarnet.jpg" alt="Yo mismo"/>
-    <div id="click-demo" alt="Click me" onclick="myClickFunction()">
-    Professional Scrum Master | Python | Data
+<body>      
+    <div class="container">
+        <img id="tag" src="./web/pics/giphy.gif" alt="Scroll to check another personality"/>
+        <img id="foto" src="./web/pics/imagenes/JCCarnet.jpg" alt="Yo mismo"/>
+        <div id="click-demo" alt="Click me" onclick="myClickFunction()">
+        Professional Scrum Master | Python | Data
+         </div>
 </div>
-<hr class="border border-danger border-2 opacity-100">
-<div> 
-	<button class="button text-warning bg-info rounded-2" onclick = alert("HI")> CLICK ME
-	</button> 
-
-
 </body>
 
 </html>

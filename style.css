@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("./web/pics/Casper.jpg");
+    background-size: auto 75%;
+}
+
+.container{
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    border-radius: 0px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Trebuchet MS';
+	font-style: normal;
+	font-weight:bold;
+	font-size: 40px;
+	margin: 20px;
+}
+
+#tag{
+    transform: rotate(-30deg);
+    float: left;
+	height: 30%;	
+    padding: 10px;
+    margin: 50px 0px 50px 0px;
+}
+
+#foto{
+	width: 200px;
+	height: 30%;
+	padding: 10px;
+	float: center;
+	margin: 50px 0px 50px 0px;
+	border-radius: 30px;
+    transition: transform 0.5s;
+
+}
+
+#foto:hover{
+	transform: scale(1.3);
+}
