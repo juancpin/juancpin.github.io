@@ -1,24 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-
-*,
-*::before,
-*::after{
-    padding: 0;
+html{
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+    background: bisque center/cover url("./jare.jpg") repeat;
 }
 
 body {
-    background-image: url("../web/pics/Casper.jpg");
-    background-size: auto 75%;
+    margin: 0;
+    padding: 0;
+    height: 10%;
 }
 
 .container{
-    width: 50%;
-    top:57%;
+    width: 100%;
+    top: 45%;
     left: 50%;
-    border-radius: 0px;
     min-width: 450px;
     position: absolute;
     min-height: 100px;
