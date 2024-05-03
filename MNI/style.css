@@ -10,7 +10,7 @@ html{
     margin: 0;
     padding: 0;
     height: 100%;
-    background: bisque center/cover url("./jare.jpg") repeat;
+    background: bisque center/cover url("./jare.jpg") repeat;;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 .container{
     width: 100%;
-    top: 45%;
+    top: 65%;
     left: 50%;
     min-width: 450px;
     position: absolute;
@@ -30,18 +30,16 @@ body {
     text-align: center;
     font-family: nuti;
 	font-style: normal;
-	font-weight:bold;
-	font-size: 70px;
+	font-weight: bold;
+	font-size: 100px;
 	margin: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 #tag{
     transform: rotate(-30deg);
     float: center;
     width: 400px;	
-    height: 10%;
-    padding: 10px;
 }
 
 #foto{
