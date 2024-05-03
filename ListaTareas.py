@@ -1,14 +1,13 @@
-
 import os
 
 # Para enmarcar el texto en cuadro ascii
 def imprimir_cuadro(texto):
     lines = texto.split('\n')
     width = max(len(line) for line in lines)
-    border = '+' + '-' * (width + 2) + '+'
+    border = '|*=' + '=' * (width + 2) + '=*|'
     print(border)
     for line in lines:
-        print(f'| {line.ljust(width)} |')
+        print(f'|*| {line.ljust(width)} |*|')
     print(border)
 
 # Texto del menú principal
@@ -24,7 +23,6 @@ SUPER TO-DO LIST
 4. Eliminar tarea
 
 Para Salir, pulsa 'S'.
-
 """
 
 def limpiar_pantalla():
@@ -32,7 +30,7 @@ def limpiar_pantalla():
     os.system('cls' if os.name == 'nt' else 'clear')
     imprimir_cuadro(menu_texto) 
 
-
+#definimos la clase y las funciones
 class ListaTareas:
     def __init__(self):
         # Inicializa la lista de tareas vacía
@@ -68,13 +66,8 @@ class ListaTareas:
             # Captura la excepción si la posición especificada no existe en la lista de tareas, alerta en rojo
             print("\033[91mLa posición especificada no existe.\033[0m")
 
-
-
-
-
-
 def main():
-    # Limpia la pantalla al inicio del programa e Imprimir el texto del menú principal en un cuadro ASCII
+    # Limpia la pantalla al inicio del programa e imprime el texto del menú principal en un cuadro ASCII
     limpiar_pantalla()
     # Crea una instancia de la clase ListaTareas
     lista = ListaTareas()
@@ -127,7 +120,7 @@ def main():
             limpiar_pantalla() 
         elif opcion == "s":
             # Finaliza el programa
-            print("\u00A9 Juan Carlos Pin 2024 -- Desarrollo Web con Python | BeJob x IBM -- NOS VEMOS!!!")
+            print("\n\n \u00A9 Juan Carlos Pin 2024 -- Desarrollo Web con Python | BeJob x IBM -- NOS VEMOS!!!\n\n")
             break
         else:
             # Captura la opción no válida Introduceda por el usuario
